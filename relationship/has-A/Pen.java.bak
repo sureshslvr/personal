@@ -1,0 +1,14 @@
+class Pen 
+{
+	Cap cap;
+
+	public Cap(Cap cap){
+		this.cap=cap;
+	}
+	public  void write() 
+	{
+		cap.open();
+		System.out.println("writing...");
+		cap.close();
+	}
+}

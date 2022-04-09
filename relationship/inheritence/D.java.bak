@@ -1,0 +1,11 @@
+class D extends C{//subclass or deriverd class
+	int j=50;
+	B(){
+		super();
+		System.out.println("from subclass constructor");
+	}
+	public static void main(String[] args) 
+	{
+		B obj=new B();
+	}
+}

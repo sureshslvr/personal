@@ -1,0 +1,11 @@
+class P2 extends P1 
+{
+	boolean b= true;
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}
+//12 inherited memebers(1 from p1 and 11 from object)+
+//2 incorporate members>>>   14 total
+//because static members do not inherit
