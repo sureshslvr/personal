@@ -1,0 +1,10 @@
+class StudentLogic 
+{
+	public static void main(String[] args) 
+	{
+		Student Obj=new Student("Suresh",20,96475592893l);
+		Obj.diplay();
+		Student obj1=new Student("manoj",22,274824691812l);
+		obj1.display();
+	}
+}

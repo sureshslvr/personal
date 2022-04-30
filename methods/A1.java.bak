@@ -1,0 +1,21 @@
+class  A1
+{
+	public static void main(String[] args) 
+	{//calling method
+		System.out.println("from main(--)");
+		marriage();//method calling statement
+		System.out.println("main ends(--)");
+	}
+	public static void marriage( ) {
+		System.out.println("marriage begins");
+		engagement();
+		System.out.println("marriage ends");
+
+	}
+
+	public static void engagement( ) {
+		System.out.println("from engagement");
+	}
+
+
+}

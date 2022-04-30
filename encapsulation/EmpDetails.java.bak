@@ -1,0 +1,8 @@
+class EmpDetails 
+{
+	public static void main(String[] args) 
+	{
+		Employee e1=new Employee("suresh",1234,"manager",0.00);
+		e1.display();
+	}
+}

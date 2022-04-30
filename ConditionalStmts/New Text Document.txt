@@ -1,0 +1,10 @@
+//wap to check whether the given charecter contains a vowel or consonant using the switch conditional
+
+
+class VowelOrConsonant{
+	public static void main(String[] args){
+		ch=
+		switch(
+	}
+
+}
